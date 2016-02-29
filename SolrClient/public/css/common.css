@@ -1,0 +1,104 @@
+.container {
+    padding: 20px 0 0 25px;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+.container #main {
+    width: 70%;
+    float: left;
+    padding-left: 30px;
+    border-left: solid 1px #ccc;
+}
+.container #facet {
+    min-width: 150px;
+    float: left;
+}
+#main .content {
+    padding: 5px 0;
+}
+h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+a, a:hover, a:hover > span {
+    color: #0000de;
+}
+h2 a span {
+    font-weight: bolder;
+    color: #0000de;
+}
+p > span {
+    font-weight: bold;
+    color: #000;
+}
+p {
+    font-size: 12px;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+dl dd{
+    padding: 5px 0 5px 10px;
+}
+#pagenation{
+    padding: 25px 0 100px;
+}
+#pagenation li {
+    display: inline-block;
+    padding: 3px 8px;
+    border: 1px solid #666;
+    margin-right: 5px;
+}
+
+#pagenation li.current{
+    background: #eee;
+    color: #666;
+    font-weight: bold;
+}
+#index .container {
+    width: 100%;
+    min-width: 500px;
+    text-align: center;
+    padding-top: 200px;
+}
+#result .container {
+    padding-top: 15px;
+    min-width: 1000px;
+}
+#result h1 {
+    margin: 0;
+    float: left;
+    color: #fff;
+}
+#result #search {
+    padding: 3px 0 0 195px;
+    min-width: 800px;
+}
+.input-lg, #result input {
+    width: 45%;
+    display: inline-block;
+    min-width: 400px;
+}
+#result button {
+    margin-top: -4px;
+    width: 85px;
+}
+#result header{
+    padding: 10px 0 10px 25px;
+    background-color: #444;
+    width: 100%;
+}
+#result .form-group {
+    margin-bottom: 0;
+}
+.btn-lg {
+    width: 5%;
+    margin-top: -7px;
+    min-width: 70px;
+}
+#facet dt span{
+    margin-right: 5px;
+}
